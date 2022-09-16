@@ -1,0 +1,131 @@
+body {    
+    height: 100vh;
+    background-color: #6F9BDE;
+    font-family: Outfit;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 319px;
+    height: 515px;
+    background-color: #ABC6EE;
+    border: 1px solid #6686B5;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px 0px;
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card:hover {
+    top: -15px;
+    box-shadow: 0px 10px 10px 0px;
+
+}
+
+.card__header {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.eye {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 90px;
+    height: 80px;
+    font-size: 80px;
+    color: #fff;
+    opacity: 0;
+    z-index: 1;
+
+}
+
+.card__header:hover .eye{
+    opacity: 1;
+}
+
+.card__header:hover .corgi{
+    filter: blur(1px);
+    cursor: pointer;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.card__title {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0px 20px;
+}
+
+.card__title:hover {
+    color: #00807B;
+    cursor: pointer;
+}
+
+.card__text {
+    color: #2F3845;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.text__data {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.text__eth {
+    color: #00807B;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text__clock {
+    color: #2F3845;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card__footer {
+    border-top: 0.5px solid rgba(88,125,179,0.3);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.PP {
+    width: 33px;
+    height: 33px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    margin: 10px 5px 5px 5px;
+}
+
+.name__createur {
+    color: #ffffff;
+}
+
+.name__createur:hover {
+    color: #00807B;
+    cursor: pointer;
+    font-weight: 600;
+}
