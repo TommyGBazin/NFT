@@ -1,7 +1,10 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
 body {    
     height: 100vh;
     background-color: #6F9BDE;
-    font-family: Outfit;  
+    font-family: 'Outfit' ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +61,7 @@ body {
     opacity: 1;
 }
 
-.card__header:hover .corgi{
+.card__header:hover{
     filter: blur(1px);
     cursor: pointer;
 }
