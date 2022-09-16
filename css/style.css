@@ -120,11 +120,11 @@ body {
     margin: 10px 5px 5px 5px;
 }
 
-.name__createur {
+.name__creator {
     color: #ffffff;
 }
 
-.name__createur:hover {
+.name__creator:hover {
     color: #00807B;
     cursor: pointer;
     font-weight: 600;
